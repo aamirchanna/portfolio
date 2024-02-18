@@ -1,20 +1,30 @@
 body {
-    background-color: #edf2f4 !important;
-
+    background-color: #1b263b !important;
+    color: #e7ecef!important;
 }
-
+ .navbar-nav a:hover{
+    border-bottom:2px solid #1b263b;
+ }
 .frontend {
     width: 400px;
+    font-weight: 600;
     margin: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace ;
 }
-
+.name {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace ;
+}
 .profile img {
     border-radius: 50%;
 }
-
 .skill {
-    width: 200px;
+    width: 300px !important;
     height: 200px;
-    border: 1px solid greenyellow;
-
+    border: 1px solid rgb(168, 9, 62);
+}
+.projects-card {
+    border: 1px solid red;
 }
