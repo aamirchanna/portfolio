@@ -1,0 +1,41 @@
+body {
+    background-color: #edf2f4 !important;
+
+}
+
+.frontend {
+    width: 400px;
+    /* border: 1px solid red; */
+    height: 400px;
+}
+
+.profile {
+    /* border: 1px solid red; */
+    width: 250px;
+}
+
+.profile img {
+    border-radius: 50%;
+    background-position: center;
+    margin: 30px 120px;
+}
+
+.hire {
+    display: flex;
+}
+.container {
+    margin-left: 10% !important;
+    justify-content: center;
+    align-items: center;
+}
+.card-skill {
+    /* margin:  20px 90px !important; */
+}
+
+.skill {
+    width: 200px;
+ 
+    height: 200px;
+    border: 1px solid greenyellow;
+
+}
